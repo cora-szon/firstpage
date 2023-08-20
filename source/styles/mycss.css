@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas Neue&display=swap");
+
+body {
+  font-family: Bebas Neue, serif;
+  background: linear-gradient(120deg, #181717 0%, #948787 100%);
+}
+
+.nav-link {
+  color: white;
+}
+.navbar-nav .nav-link.active {
+  color: rgb(136, 130, 130);
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar-toggler {
+  background-color: rgb(66, 65, 65);
+}
+
+.sidebar {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(240deg, #181717 0%, #948787 100%);
+  font-size: 25px;
+}
+
+.card {
+  background: rgb(61, 61, 61);
+  color: white;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
+.learn {
+  text-decoration: none;
+  color: #2704c4;
+}
+
+.footer-text {
+  color: white;
+  margin: auto auto;
+  font-size: 20px;
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
